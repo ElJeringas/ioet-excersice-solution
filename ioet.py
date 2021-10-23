@@ -24,7 +24,7 @@ end_date2=""
 
 
 
-with open('c:/Users/Santiago/Desktop/SantiagoSarmiento_Ioet/schedule.txt',newline='') as file:  #open the .txt file going to the directory  and name this variable 'file'
+with open('./schedule.txt',newline='') as file:  #open the .txt file going to the directory  and name this variable 'file'
     csv_reader = csv.reader(file, delimiter=',') #convert the .txt in csv format, this will transform the text to table
     for row in csv_reader: #create rows in file converted
         employe={} #dictionary
