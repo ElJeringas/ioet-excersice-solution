@@ -2,7 +2,7 @@
 A possible solution for the problem of the coincidence of workers' schedules.
 
 
-# Abstract
+## Abstract
 
 The files below contain the solution to the problem raised by IOET.
 The two files contain:
